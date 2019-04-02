@@ -15,7 +15,7 @@ const {
 
 // add handlers for the routes
 // GET
-bookRoutes.get('/', retrieveAll);
+bookRoutes.get('/', retrieve);
 // POST
 bookRoutes.post('/', create);
 // PUT
