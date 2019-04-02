@@ -1,18 +1,18 @@
 // Create (Post)
 function create(req, res){
-    res.json({message: "create (post) request"});
+    res.status(200).json({message: "create (post) request"});
 }
 // Retrieve (Get)
 function retrieve(req, res){
-    res.json({message: "retrieve (Get) request"});
+    res.status(200).json({message: "retrieve (Get) request"});
 }
 // Update (Put)
 function update(req, res){
-    res.json({message: "update (Put) request"});
+    res.status(200).json({message: "update (Put) request"});
 }
 // Delete
 function deleted(req, res){
-    res.json({message: "delete request"});
+    res.status(200).json({message: "delete request"});
 }
 // export the control functions
 module.exports = {
